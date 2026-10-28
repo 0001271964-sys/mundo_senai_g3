@@ -1,0 +1,47 @@
+body{ 
+background-color:black;
+margin:0;
+padding:15px;
+font-family:sans-serif;
+}
+h1{ 
+color:red;
+font_size:40px;
+font-family:sans-serif;
+}
+h2,h3,h4{ 
+color:red;
+font-size:28px;
+font_family:sans_serif;
+}
+
+p{ 
+ color:white;
+ font_size:28px;
+ font_family:sans_serif;
+}
+
+input{ 
+border:2px solid red;
+padding:8px;
+border_radius:6px;
+width:100%;
+backgroud_color:white;
+} 
+
+form{ 
+color:bisque;
+font_family:sans_serif;
+font_size:18px;
+} 
+header{ 
+    color:aliceblue;
+    font-size:24px; 
+}
+button{ 
+backgroud_color:black;
+color:white;
+border:1pxsolid red;
+padding:10px;
+border-radius:6px;
+}

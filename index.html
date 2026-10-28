@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head> 
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cine-Dev</title> 
+    <link rel="stylesheet" href="style.css">
+</head>
+<body> 
+
+    <header>
+        <h1>Cine-Dev</h1>
+        <p>Apresentação do cinema: navegue pelas seções para ver os filmes de cada categoria.</p>
+        
+        <nav>
+            <ul>
+                <li><a href="#animacao">Animação</a></li>
+                <li><a href="#terror">Terror</a></li>
+                <li><a href="#acao">Ação</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <hr>
+
+    <main>
+        <section id="cadastro">
+            <h2>Cadastro</h2>
+            <p>Para se cadastrar, preencha o campo abaixo e acesse o site:</p>
+            
+            <form action="#" method="POST">
+                <label for="input-cine">Usuário / Email:</label>
+                <input type="text" id="input-cine" placeholder="Digite seu usuário">
+                
+                <div class="button"> 
+                    <button type="submit">Cadastrar</button>
+                </div>
+            </form>
+            
+            <p>Dúvidas? Entre em contato pelo e-mail: <a href="mailto:cine-dev@site.com">cine-dev@site.com</a></p>
+        </section>
+
+        <hr>
+        <section id="animacao">
+            <h3>Animação</h3>
+            <p>Diversos filmes de animação para você aproveitar com a família.</p>
+            <p>Temos opções para assistir de manhã, tarde e noite.</p>
+            
+            <label for="periodo-animacao">Escolha o horário para assistir:</label>
+            <select id="periodo-animacao" name="periodo_animacao">
+                <option value="" disabled selected>Selecione um período...</option>
+                <option value="manha">Manhã (09:00 - 12:00)</option>
+                <option value="tarde">Tarde (14:00 - 18:00)</option>
+                <option value="noite">Noite (19:00 - 22:00)</option>
+            </select>
+        </section>
+
+        <hr>
+        <section id="terror">
+            <h3>Terror</h3>
+            <p>Diversos filmes de terror de arrepiar.</p>
+            <p>Temos opções para assistir de manhã, tarde e noite.</p>
+            
+            <label for="periodo-terror">Escolha o horário para assistir:</label>
+            <select id="periodo-terror" name="periodo_terror">
+                <option value="" disabled selected>Selecione um período...</option>
+                <option value="manha">Manhã (09:00 - 12:00)</option>
+                <option value="tarde">Tarde (14:00 - 18:00)</option>
+                <option value="noite">Noite (19:00 - 22:00)</option>
+            </select>
+        </section>
+
+        <hr>
+        <section id="acao">
+            <h3>Ação</h3>
+            <p>Diversos filmes de ação com muita aventura.</p>
+            <p>Temos opções para assistir de manhã, tarde e noite.</p>
+
+            <label for="periodo-acao">Escolha o horário para assistir:</label>
+            <select id="periodo-acao" name="periodo_acao">
+                <option value="" disabled selected>Selecione um período...</option>
+                <option value="manha">Manhã (09:00 - 12:00)</option>
+                <option value="tarde">Tarde (14:00 - 18:00)</option>
+                <option value="noite">Noite (19:00 - 22:00)</option>
+            </select>
+        </section>
+    </main>
+
+    <hr>
+
+</body>
+</html>
